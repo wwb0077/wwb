@@ -1,0 +1,18 @@
+初始化文件 建立出库
+git init
+
+提交到暂存区 
+方式一：
+git add 文件名称
+方式二：点代表所有
+git add .
+
+提交到分支 并注明
+git commit -m "first"
+
+git config --global user.email "1797373219@qq.com"
+git config --global user.name "wwb0077"
+
+小结：add 可多次 commit 一次即可。
+
+放大镜

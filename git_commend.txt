@@ -30,3 +30,7 @@ git push origin master
 ssh-keygen -t rsa -C "1797373219@qq.com"
 回车之后，.ssh就会生成文件
 
+pull--工作-add --commit--push
+
+
+

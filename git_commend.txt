@@ -26,11 +26,47 @@ ssh地址 git@github.com:wwb0077/wwb.git
 git remote add origin git@github.com:wwb0077/wwb.git
 git push origin master
 
-需要先建立连接：
+需要先建立连接：生成秘钥
 ssh-keygen -t rsa -C "1797373219@qq.com"
 回车之后，.ssh就会生成文件
 
 pull--工作-add --commit--push
+
+
+i
+esc
+:wq
+退出命令
+
+下载文件
+git clone git@github.com:wwb0077/wwb.git
+
+创建分支
+git brach 名称
+
+查询创建转态
+git branch
+
+跳转到指定分支去
+git checkout 分支名
+
+git branch
+*代表指定分支
+
+合并内容，需要在总分支下
+git merge 分支名
+
+删除分支
+git branch -d 分支名
+
+
+版本回退
+
+查看ID号
+git log 
+
+git reset --hard id号
+
 
 
 

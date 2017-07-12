@@ -15,4 +15,18 @@ git config --global user.name "wwb0077"
 
 小结：add 可多次 commit 一次即可。
 
-放大镜
+查看添加内容
+git log 
+
+
+
+ssh地址 git@github.com:wwb0077/wwb.git
+
+把本地出库代码 推送到服务器分支下
+git remote add origin git@github.com:wwb0077/wwb.git
+git push origin master
+
+需要先建立连接：
+ssh-keygen -t rsa -C "1797373219@qq.com"
+回车之后，.ssh就会生成文件
+

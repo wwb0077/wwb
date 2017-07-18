@@ -67,6 +67,12 @@ git log
 
 git reset --hard id号
 
+需要上传文件只需三步骤：
+1，git init
+2, git add .
+3, git commit -m "备注"
+4，git push origin master
+
 
 
 
